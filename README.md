@@ -1,4 +1,6 @@
-Taken from [http://react-dnd.github.io/react-dnd/examples/sortable/simple](http://react-dnd.github.io/react-dnd/examples/sortable/simple)
+![Demo.gif](Demo.gif)
+
+Inspired by from [http://react-dnd.github.io/react-dnd/examples/sortable/simple](http://react-dnd.github.io/react-dnd/examples/sortable/simple)
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
