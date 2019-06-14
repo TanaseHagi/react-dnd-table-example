@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.js": "/static/js/main.cd7e80ba.chunk.js",
-    "main.js.map": "/static/js/main.cd7e80ba.chunk.js.map",
-    "runtime~main.js": "/static/js/runtime~main.a8a9905a.js",
-    "runtime~main.js.map": "/static/js/runtime~main.a8a9905a.js.map",
-    "static/js/2.70a1c652.chunk.js": "/static/js/2.70a1c652.chunk.js",
-    "static/js/2.70a1c652.chunk.js.map": "/static/js/2.70a1c652.chunk.js.map",
-    "index.html": "/index.html",
-    "precache-manifest.26cc13ddffd67ac7a69f1a1a5cc7f756.js": "/precache-manifest.26cc13ddffd67ac7a69f1a1a5cc7f756.js",
-    "service-worker.js": "/service-worker.js"
+    "main.js": "/react-dnd-table-example/static/js/main.cc935073.chunk.js",
+    "main.js.map": "/react-dnd-table-example/static/js/main.cc935073.chunk.js.map",
+    "runtime~main.js": "/react-dnd-table-example/static/js/runtime~main.34840abb.js",
+    "runtime~main.js.map": "/react-dnd-table-example/static/js/runtime~main.34840abb.js.map",
+    "static/js/2.70a1c652.chunk.js": "/react-dnd-table-example/static/js/2.70a1c652.chunk.js",
+    "static/js/2.70a1c652.chunk.js.map": "/react-dnd-table-example/static/js/2.70a1c652.chunk.js.map",
+    "index.html": "/react-dnd-table-example/index.html",
+    "precache-manifest.29dee31403e3376a4dbba6cb1a6f2853.js": "/react-dnd-table-example/precache-manifest.29dee31403e3376a4dbba6cb1a6f2853.js",
+    "service-worker.js": "/react-dnd-table-example/service-worker.js"
   }
 }
