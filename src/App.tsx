@@ -29,6 +29,14 @@ function App() {
 
   return (
     <table>
+        <thead>
+          <tr>
+            <th>Main text</th>
+            <th>column</th>
+            <th>column</th>
+            <th>column</th>
+          </tr>
+        </thead>
         {bodys.map((body, index) => {
           return (
             <Example key={body.id} color={body.color} index={index} id={body.id} moveCard={moveCard} />
