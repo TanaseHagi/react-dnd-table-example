@@ -51,7 +51,7 @@ const Container: React.FC<ContainerProps> = (props) => {
       {
         id: 5,
         text:
-          'Spam in Twitter and IRC to promote it (note that this element is taller than the others)',
+          'Spam in Twitter and IRC to promote it \n(note that this element is taller than the others)',
       },
       {
         id: 6,
@@ -108,7 +108,7 @@ const Container: React.FC<ContainerProps> = (props) => {
                     const opacity = isDragging ? 0 : 1;
                     return (
                       <tr ref={ref} style={{ backgroundColor: props.color, ...trStyle, opacity }}>
-                        <td style={{ backgroundColor: props.color }}>{card.text}</td>
+                        <td style={{ backgroundColor: props.color }}>{card.text.split("\n").map(txt => <div key={txt}>{txt}</div>)}</td>
                         <td style={{ backgroundColor: props.color }}>111</td>
                         <td style={{ backgroundColor: props.color }}>222</td>
                         <td style={{ backgroundColor: props.color }}>333</td>
