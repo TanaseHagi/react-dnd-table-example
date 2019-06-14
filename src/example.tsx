@@ -91,8 +91,8 @@ const Container: React.FC<ContainerProps> = (props) => {
               <tr>
                 <td style={{ fontWeight: "bold" }}>Header {props.index + 1}</td>
                 <td>some</td>
-                <td>column</td>
                 <td>extra</td>
+                <td>columns</td>
               </tr>
               {cards.map((card, cardIndex) =>
                 <DraggableCard
