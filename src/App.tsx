@@ -1,26 +1,42 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, { useState, useCallback } from 'react'
+import Example from './example'
+import update from 'immutability-helper'
 
-const App: React.FC = () => {
+function App() {
+  // eslint-disable-next-line
+  const [bodys, setBodys] = useState([
+    {
+      id: 1,
+      color: "lightgray"
+    },
+    {
+      id: 2,
+      color: "skyblue"
+    }
+  ]);
+
+  const moveCard = useCallback(
+    (dragIndex: number, hoverIndex: number) => {
+      const dragCard = bodys[dragIndex]
+      setBodys(
+        update(bodys, {
+          $splice: [[dragIndex, 1], [hoverIndex, 0, dragCard]],
+        }),
+      )
+    },
+    [bodys],
+  )
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <table>
+        {bodys.map((body, index) => {
+          return (
+            <Example key={body.id} color={body.color} index={index} id={body.id} moveCard={moveCard} />
+          );
+        })}
+    </table>
   );
+
 }
 
 export default App;
