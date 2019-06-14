@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "089c591130069ecdb9be9efd958267b6",
+    "revision": "66fc7566f1f5ba2d45fe4c9d40c7a265",
     "url": "/react-dnd-table-example/index.html"
   },
   {
@@ -8,8 +8,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/react-dnd-table-example/static/js/2.70a1c652.chunk.js"
   },
   {
-    "revision": "228f29921c21fd11814a",
-    "url": "/react-dnd-table-example/static/js/main.b1537320.chunk.js"
+    "revision": "70f94918fda72f64804b",
+    "url": "/react-dnd-table-example/static/js/main.6c8d1221.chunk.js"
   },
   {
     "revision": "773d2fdf4ec352be59a4",
